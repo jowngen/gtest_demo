@@ -40,22 +40,16 @@ int mock_c_func(c_struct_t *p_c_struct) {
 //    EXPECT_EQ(456, ret);
 //}
 
-//测试被测函数
-TEST(Atest, test_c_func_001)
-{
-    EXPECT_CALL(mocker, mock_c_func(An<c_struct_t *>())).WillRepeatedly(Return(654));
+////测试被测函数
+//TEST(Atest, test_c_func_001)
+//{
+//    EXPECT_CALL(mocker, mock_c_func(An<c_struct_t *>())).WillRepeatedly(Return(654));
 
-    c_struct_t c_struct_foo;
-    c_struct_foo.p_c_func = mock_c_func;
-    int l = c_func_caller(&c_struct_foo);
-    EXPECT_EQ(654, l);
-}
+//    c_struct_t c_struct_foo;
+//    c_struct_foo.p_c_func = mock_c_func;
+//    int l = c_func_caller(&c_struct_foo);
+//    EXPECT_EQ(654, l);
+//}
 
-/*
-int main(int argc, char *argv[]) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
-*/
 
 

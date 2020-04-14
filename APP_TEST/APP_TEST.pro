@@ -7,16 +7,17 @@ CONFIG += thread
 CONFIG -= qt
 
 HEADERS += \
+        biz.h \
+        code_in_c.h \
         demoTest.h \
-        ../APP/demo.h \
-        ../APP/myclass.h \
-        ../APP/usemyclass.h \
-        ../APP/code_in_c.h
+        test_f.h \
+        usemycalss_test.h
 
 SOURCES += \
-        demoTest.cpp \
+        add_test.cpp \
+        code_in_c.c \
         gmock_test_c_code.cc \
         main.cpp \
-        ../APP/demo.cpp \
-        ../APP/code_in_c.c
+        test_f.cpp \
+        usemyclass_test.cpp
 
