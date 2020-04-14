@@ -7,7 +7,7 @@
 #include "gtest/gtest-printers.h"
 
 
-#include "../APP/biz.h"
+#include "biz.h"
 
 
 using namespace testing;

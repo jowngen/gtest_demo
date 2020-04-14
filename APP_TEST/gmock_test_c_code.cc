@@ -5,7 +5,7 @@
 //引用被测函数的头文件
 extern "C"
 {
-#include "../APP/code_in_c.h"
+#include "code_in_c.h"
 }
 
 using namespace testing;
