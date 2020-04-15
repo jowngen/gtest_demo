@@ -18,19 +18,19 @@ protected:
     std::vector<int> m_vecData;
 };
 
-void JTestFixture ::SetUpTestCase(){
+void JTestFixture ::SetUpTestCase() {
 //    LOG(INFO) << "Start SetUpTestCase";
 }
 
-void JTestFixture ::TearDownTestCase(){
+void JTestFixture ::TearDownTestCase() {
 //    LOG(INFO) << "Start TearDownTestCase";
 }
 
-void JTestFixture ::SetUp(){
+void JTestFixture ::SetUp() {
 //    LOG(INFO) << "Start SetUp";
 }
 
-void JTestFixture ::TearDown(){
+void JTestFixture ::TearDown() {
 //    LOG(INFO) << "Start TearDown";
 }
 
